@@ -3,6 +3,7 @@ function onDeviceReady() {
     console.log(navigator.contacts);
     function onSuccess(contacts) {
         alert('Found ' + contacts.length + ' contacts.');
+        console.log(contacts);
     }
     ;
 
